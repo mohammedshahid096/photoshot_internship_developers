@@ -1,0 +1,304 @@
+    @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Gideon+Roman&family=Irish+Grover&family=Permanent+Marker&family=Poppins:ital,wght@0,100;1,400&family=Roboto+Serif:wght@100&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Gideon+Roman&family=Irish+Grover&family=Permanent+Marker&family=Poppins:ital,wght@0,100;1,400&family=Roboto+Serif:wght@100&family=Shippori+Antique+B1&display=swap');
+
+body {
+    background-color: white;
+    font-family: 'poppins', sans-serif;
+    font-weight: 1000;
+    margin: 0;
+    padding: 0;
+}
+
+
+header .row {
+    background-image: linear-gradient(62deg, rgb(217, 235, 255) 0%, rgb(158, 169, 255) 100%);
+    padding-top: 2rem;
+    height: 10%;
+}
+
+.logo {
+    width: 5rem;
+    height: 4rem;
+    margin-left: 2rem;
+}
+
+    #headerlogotitle {
+    color: white;
+    font-size: 27px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 1rem;
+    color: black;
+}
+
+.commonnavs {
+    color: black;
+    margin-top: 1.5rem;
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2rem;
+
+}
+#notificationlogo{
+    color: black;
+    border: 1px solid rgba(255, 255, 255, 0.473);
+    border-radius: 5px;
+    padding: 2px;
+    margin-top: 1rem;
+    margin-left: -6rem;
+    
+}
+
+#create{
+    color: rgb(0, 0, 255);
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -2rem;
+    margin-left: -3rem;
+
+}
+
+
+
+h3{
+    font-size:small;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 3.5rem;
+
+}
+
+i{
+    margin-left: 7rem;
+}
+.box{
+    position: fixed; 
+    z-index: 1;
+    padding-top: 100px; 
+    left: 0;
+    top: 6rem;
+    width: 200%; 
+    height: 90%; 
+    overflow: auto; 
+    background-image: linear-gradient(62deg, rgb(217, 235, 255) 0%, rgb(158, 169, 255) 100%);
+
+}
+
+#arrowleft{
+    color: rgb(0, 0, 0);
+}
+
+h1{
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -1.5rem;
+    margin-left: 10rem;
+    font-style: bolder;
+}
+
+h2{
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10rem;
+    font-style: bolder;
+}
+#box1{
+    width: 18px;
+    height: 18px;
+}
+#designer{font-family: 'Times New Roman', Times, serif;}
+
+#box2{
+    width: 18px;
+    height: 18px;
+}
+#photo{font-family: 'Times New Roman', Times, serif;}
+
+
+#box3{
+    width: 18px;
+    height: 18px;
+}
+#printer{font-family: 'Times New Roman', Times, serif;}
+
+#box4{
+    width: 18px;
+    height: 18px;
+}
+#user{font-family: 'Times New Roman', Times, serif;}
+
+#checkbox{
+    width: 18px;
+    height: 18px;
+}
+
+#user{font-family: 'Times New Roman', Times, serif;}
+
+/*---------------------------------------------*/
+
+#firstname{
+    margin-left: -26.3rem;
+    font-family: 'Times New Roman';
+}
+#fname{
+    margin-left: -19.5rem;
+    border-radius: 6px;
+    font-family: 'Times New Roman';
+}
+
+#secondname{
+    position: absolute;
+    top: 13.5rem;
+    font-family: 'Times New Roman';
+    
+}
+
+#sname{
+    position: absolute;
+    top: 15rem;
+    border-radius: 6px;
+    font-family: 'Times New Roman';
+}
+
+#design{
+    position: absolute;
+    margin-left: -16rem;
+    top: 17.5rem;
+    font-family: 'Times New Roman';
+}
+#design1{
+    position: absolute;
+    margin-left: -16rem;
+    top: 19rem;
+    border-radius: 6px;
+    font-family: 'Times New Roman';
+}
+
+#email{
+    position: absolute;
+    top: 17.5rem;
+    font-family:'Times New Roman';
+    
+}
+#email1{
+    position: absolute;
+    top: 19rem;
+    border-radius: 6px;
+    font-family: 'Times New Roman';
+}
+
+#phoneno{
+    position: absolute;
+    margin-left: -16rem;
+    top: 21.5rem;
+    font-family: 'Times New Roman';
+    
+}
+#phoneno1{
+    position: absolute;
+    margin-left: -16rem;
+    top: 23rem;
+    border-radius: 6px;
+    font-family: 'Times New Roman';
+}
+
+#code{
+    position: absolute;
+    top: 21.5rem;
+    font-family: 'Times New Roman';
+    
+}
+#code1{
+    position: absolute;
+    top: 23rem;
+    border-radius: 6px;
+    font-family: 'Times New Roman';
+}
+
+#category{
+    position: absolute;
+    margin-left: -16rem;
+    top: 25.5rem;
+    font-family: 'Times New Roman';
+    
+}
+#category1{
+    position: absolute;
+    margin-left: -16rem;
+    top: 27rem;
+    border-radius: 6px;
+    font-family: 'Times New Roman';
+}
+
+#type{
+    position: absolute;
+    top: 25.5rem;
+    font-family: 'Times New Roman';
+    
+}
+#type1{
+    position: absolute;
+    top: 27rem;
+    border-radius: 6px;
+    font-family: 'Times New Roman';
+}
+
+h5{
+    position: absolute;
+    margin-left: 17.5rem;
+    top: 30rem;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+}
+#document{
+    position: absolute;
+    top: 32rem;
+    margin-left: -16rem;
+    border-radius: 6px;
+    font-family: 'Times New Roman';
+}
+
+#choose{
+    position: absolute;
+    top: 32rem;
+    margin-left: 3rem;
+    border-radius: 6px;
+    font-family: 'Times New Roman';
+}
+
+button{
+    position: absolute;
+    background-color: rgb(16, 19, 243);
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    border-radius: 6px;
+    width: 10rem;
+    margin-left: 25rem;
+    top: 34rem;
+}
+#box5{
+    position: absolute;
+    background-color: aliceblue;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 10px;
+    margin-left: 65rem;
+    top: 8rem;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: rgba(27, 24, 24, 0.527);
+}
+
+#drag{
+    position: absolute;
+    color: rgba(22, 22, 22, 0.452);
+    font-family: Arial, Helvetica, sans-serif;
+    top: 6rem;
+    margin-left: 3.5rem;
+}
+
+#profile{
+    position: absolute;
+    color: rgb(20, 19, 19);
+    margin-left: 68rem;
+    top: 24rem;
+    font-family:'Times New Roman';
+}

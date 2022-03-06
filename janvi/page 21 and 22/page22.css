@@ -1,0 +1,93 @@
+body{
+    background-image: linear-gradient(62deg, #faffff 0%, rgb(202, 202, 248) 100%);
+    font-family: 'poppins', sans-serif;
+            font-weight: 1000;
+            margin: 0;
+            padding: 0;
+
+    }
+    header{
+         background-image: linear-gradient(62deg, #faffff 0%, rgb(202, 202, 248) 100%);
+            
+    }
+    header .row {
+       
+            padding-top: 2rem;
+        }
+
+        .logo {
+            width: 5rem;
+            height: 5rem;
+            margin-left: 1.5rem;
+        }
+
+        #headerlogotitle {
+            color: black;
+            font-size: 25px;
+
+        }
+
+        .commonnavs {
+            color: black;
+            margin-top: 1.5rem;
+            font-size: 12px;
+        
+        }
+        #notificationlogo{
+            color: black;
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 2px;
+            margin-top: 2rem;
+        }
+        .noti{
+            height:15px;
+            width: 15px;
+        }
+        
+        
+         .gbox{
+        display: grid;
+        grid-template-columns:  0.5fr 20fr;
+
+
+    }
+       
+    
+       .Giteam{
+        font-size: x-small;}
+
+        .photo{
+            height: 200px;
+            width: 190px;
+            margin-top: 50px;
+            margin-left: 30px;
+            background-color: #F8F9F5;
+            border:2px #C1D0CD;
+            border-style: dashed;
+            border-radius: 10px;
+        }
+        .font{
+            font-size: x-small;
+            font-variant: 
+            font-weight: 300;
+        }
+        .row{
+        margin-top: 15px;
+        }
+        input{
+            border-width: 0.5px;
+        }
+        ::placeholder{
+            font-size: x-small;
+        }
+        button{
+            background-color: #1875E7;
+            border-radius:10px;
+            padding-right: 25px;
+            padding-left: 25px;
+            margin-top: 20px
+        }
+
+       
+       

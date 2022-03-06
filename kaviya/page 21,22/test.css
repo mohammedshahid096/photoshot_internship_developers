@@ -1,0 +1,23 @@
+ul
+{
+width:1600px;
+height:50px;
+margin:auto;
+border:1px solid black;
+background-color:blue;
+}
+
+ul li
+{
+padding:30px;
+display:inline-flex;
+list-style-type:none;
+color:dark white;
+font-size:18px;
+font-family:sans-serif;
+}
+ul li a
+{
+text-decoration:none;
+color:black;
+}

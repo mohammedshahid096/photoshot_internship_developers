@@ -1,0 +1,163 @@
+body {
+    background-image: linear-gradient(62deg, #faffff 0%, rgb(202, 202, 248) 100%);
+}
+/* ------------------------------     header  -------------------------------------- */
+#headerphotologo {
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: 1.4rem;
+}
+
+#headerphotoheading {
+    margin-top: 2rem;
+    font-size: 2.3rem;
+    padding-left: 3.4rem;
+}
+
+.headermenu {
+    text-decoration: none;
+    font-size: 1.2rem;
+    justify-content: center;
+    color: black;
+    font-weight: 600;
+}
+
+#createaccountmenu{
+    color: #24d;
+    /* background-color: beige; */
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    /* margin-left: 4rem; */
+}
+.col{
+   
+
+}
+.noti{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2.5px;
+}
+/* ----------------------       row -1     ------------------------------ */
+#mainrow2{
+margin-top: 11rem;
+}
+
+#selectionheading{
+color:#129;
+font-size: 3.4rem;
+font-family:'Times New Roman', Times, serif;
+
+}
+#selectionheading p{
+font-size: large;
+color: rgba(17, 33, 153, 0.452);
+}
+.rectangle{
+width: 6rem;
+height: 5rem;
+background-color: black;
+margin-right: 1rem;
+border-radius: 6px;
+float: left;
+}
+#mainrow2 img{
+width:8rem;
+height: 8rem;
+margin-top: 5.9rem;
+margin-left: -13rem;
+}
+/* ---------------------------------  login div -------------------------------- */
+.login{
+background-image: linear-gradient(62deg,  #f2e6ff 100% #faffff 0%,);
+border-radius: 20px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin-top: -5rem;
+padding-bottom: 4rem;
+
+}
+.login h3{
+padding-top: 4rem;
+color: #129;
+
+}
+.login input{
+width: 85%;
+height: 2.3rem;
+border: 1px solid #129;
+border-radius: 12px;
+background-color: #d6d8faa8;
+
+
+}
+.login label{
+color: #129;
+font-size: x-large;
+/* position: absolute; */
+margin-top: -2.8rem;
+margin-left: 3.4rem;
+}
+.eye{
+position: absolute;
+margin-left: -3rem;
+margin-top: 3px;
+}
+button{
+width: 85%;
+height: 2.6rem;
+border: 1px solid #129;
+border-radius: 12px;
+background-color: #129;
+color: white;
+font-weight: xx-large;
+font-size:x-large;
+}
+#checkbox{
+width: 1.3rem;
+position: absolute;
+margin-top: -4px;
+margin-left: 10px;
+
+}
+.rememberme{
+margin-left: 2.5rem;
+text-decoration: none;
+color: gray;
+margin-top: -2rem;
+position: relative;
+text-align: center;
+}
+@media screen and (max-width:1100px) {
+    .headermenu,.noti {
+        margin-left: 3.4rem;
+
+    }
+    body{
+        background-repeat: no-repeat;
+        
+    }
+    #mainrow2{
+        margin-top: 3.5rem;
+        /* border-top: 2px solid black; */
+    }
+   
+}
+@media screen and (max-width:800px){
+    .login{
+        margin-top: 3rem;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:290px){
+    .rectangle{
+        width: 5rem;
+        height: 4rem;
+    }
+    .login{
+        width: 100%;
+    }
+    
+}

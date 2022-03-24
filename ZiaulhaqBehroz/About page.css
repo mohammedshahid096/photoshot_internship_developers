@@ -1,0 +1,133 @@
+
+img{
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    margin-left: 3.2rem;
+    top: 4rem;
+    z-index: -1;  
+}
+#left{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 4.3rem;
+    top: 19rem;
+    font-size: 35px;
+}
+
+#left:hover,#left:focus{  
+    color: rgb(0, 0, 0);  
+    text-decoration: none;
+    cursor:pointer;
+}
+#right{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 41rem;
+    top: 19rem;
+    font-size: 35px;
+}
+#right:hover,#right:focus{  
+    color: rgb(0, 0, 0);  
+    text-decoration: none;
+    cursor:pointer;
+}
+
+#box{
+    position: absolute;
+    width: 42%;
+    height: 70%;
+    margin-left: 54.2%;
+    background-color: rgb(45, 119, 255);
+    top: 4rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+h1{
+    font-size: medium;
+}
+h2{
+    font-size: 40px;
+    text-shadow: 1px 1px 3px #000000;
+}
+#NO{
+    text-shadow: 0px 5px 5px black;
+}
+#pg{
+    position: absolute;
+    color: red;
+    font-size: 40px;
+    top: 12rem;
+    left: 15rem;
+    text-shadow: 1px 1px 3px #000000;
+}
+h3{
+    text-shadow: 1px 1px 3px #000000;
+}
+#gents{
+    font-size: 40px;
+    text-shadow: 1px 1px 3px #000000;
+}
+#multi{
+    text-shadow: 0px 5px 5px black;
+}
+.dot {
+    position: absolute;
+    top: 85.5%;
+    left: 81%;
+    transform: translate(-50%, -50%);
+    height: 140px;
+    width: 200px;
+    border-radius: 150px 150px 0 0;
+    background-color: rgb(255, 0, 0);
+    box-shadow: inset -10px -10px 50px rgb(255, 3, 3), 1px 0px 1px black;
+}
+.dot1 {
+    position: absolute;
+    top: 88.5%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    height: 110px;
+    width: 250px;
+    border-radius: 150px 150px 0 0;
+    background-color: rgb(255, 0, 0);
+    box-shadow: inset -10px -10px 50px rgb(255, 3, 3), 1px 0px 1px black;
+}
+
+#home1{
+    position: absolute;
+    font-size: 30px;
+    top: 79%;
+    left: 75%;
+}
+#home2{
+    position: absolute;
+    font-size: 25px;
+    top: 74%;
+    left: 79%;
+}
+#home3{
+    position: absolute;
+    font-size: 20px;
+    top: 74%;
+    left: 74%;
+}
+#home4{
+    position: absolute;
+    font-size: 30px;
+    top: 86%;
+    left: 50%;
+}
+#home5{
+    position: absolute;
+    font-size: 25px;
+    top: 81%;
+    left: 53%;
+}
+#home6{
+    position: absolute;
+    font-size: 20px;
+    top: 81%;
+    left: 48%;
+}

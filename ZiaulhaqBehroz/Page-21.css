@@ -140,8 +140,8 @@ h3{
   position: absolute;
   width: 18px;
   height: 18px;
-  top: 20.1rem;
-  margin-left: -1.5rem;  
+  top: 18.7rem;
+  margin-left: 2rem;  
 }
 button{
   width: 80%;
@@ -171,14 +171,14 @@ button:hover,.button:focus{
 #noaccount{
   position: absolute;
   top: 27.7rem;
-  margin-left: -6rem;
+  margin-left: 4rem;
   font-size: small;
   font-family:'Times New Roman';
 }
 #sign{
   position: absolute;
   top: 27.5rem;
-  margin-left: 3rem;
+  margin-left: 13rem;
   font-family:'Times New Roman';
   color: blue;
 }

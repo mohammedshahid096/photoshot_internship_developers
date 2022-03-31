@@ -66,6 +66,10 @@ i{
     top: 3rem;
     color: rgb(0, 0, 0);
 }
+#arrowleft:hover,#arrowleft:focus{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
 h1{
     position: absolute;
     top: 4rem;

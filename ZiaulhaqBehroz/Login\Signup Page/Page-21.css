@@ -1,1 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Gideon+Roman&family=Irish+Grover&family=Permanent+Marker&family=Poppins:ital,wght@0,100;1,400&family=Roboto+Serif:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Gideon+Roman&family=Irish+Grover&family=Permanent+Marker&family=Poppins:ital,wght@0,100;1,400&family=Roboto+Serif:wght@100&family=Shippori+Antique+B1&display=swap');
+
+body {
+background-color: white;
+font-family: 'poppins', sans-serif;
+font-weight: 1000;
+margin: 0;
+padding: 0;
+}
+
+
+header .row {
+background-image: linear-gradient(62deg, rgb(241, 245, 248) 0%, rgb(158, 169, 255) 100%);
+padding-top: 2rem;
+height: 10%;
+}
+
+.logo {
+width: 5rem;
+height: 4rem;
+margin-left: 2rem;
+}
+
+#headerlogotitle {
+color: rgb(0, 0, 0);
+font-size: 27px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+z-index: 3;
+}
+
+.commonnavs {
+color: black;
+margin-top: 1.5rem;
+font-size: 12px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-top: 2rem;
+
+}
+#notificationlogo{
+color: rgb(0, 0, 0);
+border: 1px solid rgba(255, 255, 255, 0.473);
+border-radius: 5px;
+padding: 2px;
+margin-top: 1rem;
+margin-left: -6rem;
+
+}
+
+#create{
+color: rgb(0, 0, 255);
+font-size: medium;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-top: -2rem;
+margin-left: 1rem;
+}
+#create:hover,#create:focus{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+
+}
+h3{
+font-size:small;
+font-family:Arial, Helvetica, sans-serif;
+margin-left: 3.5rem;
+}
+
+.box{
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+padding-top: 100px; /* Location of the box */
+left: 0;
+top: 6rem;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-image: linear-gradient(62deg, rgb(241, 245, 248) 0%, rgb(158, 169, 255) 100%);
+
+}
+
+#album{
+    font-family: 'Times New Roman';
+    font-size:130%;
+    font-weight: lighter;
+    font-family: 'Times New Roman';
+    color: rgb(0, 10, 85);
+}
+#selectionheading p{
+    font-size: large;
+    color: rgba(17, 33, 153, 0.452);
+    font-family:'Times New Roman';
+}
+.rectangle{
+    width: 6rem;
+    height: 5rem;
+    background-color: black;
+    margin-right: 1rem;
+    border-radius: 6px;
+    float: left;
+}
+#mainrow2 img{
+    width:8rem;
+    height: 8rem;
+    margin-top: 5.9rem;
+    margin-left: -13rem;
+}
+
+
+
+.login{
+    background-image: linear-gradient(62deg,  #f2e6ff 100% #faffff 0%,);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(114, 109, 109, 0.61), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: -1rem;
+    height: 28rem;
+    font-family:'Lucida Sans';
+    
+}
+.login h3{
+    padding-top: 1rem;
+    margin-left: 0.5rem;
+    color: #129;
+    font-size: 22px;
+    font-family:'Lucida Sans';
+
+}
+.login input{
+    width: 85%;
+    height: 2rem;
+    border: 1px solid #129;
+    border-radius: 12px;
+    background-color: #d6d8faa8;
+    
+
+}
+.login label{
+    color:#129;
+    font-size:medium;
+    margin-left:2rem;
+    margin-right: 9rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#togglePassword{
+    position: absolute;
+    margin-left: -2rem;
+    margin-top: 8px;
+    color: rgba(26, 24, 24, 0.329);
+}
+
+#togglePassword:hover,#togglePassword:focus{
+    color: black;
+    cursor: pointer;
+}
+
+#checkbox{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 21.7rem;
+    margin-left: 2rem;
+    
+}
+
+button{
+    width: 80%;
+    height: 2rem;
+    border: 1px solid #129;
+    border-radius: 12px;
+    background-color: rgb(9, 28, 173);
+    color: white;
+    font-weight: xx-large;
+    font-size:large;
+    margin-top: -2rem;
+    font-family:'Times New Roman';
+}
+button:hover,.button:focus{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#remember{
+    font-size: small;
+    font-family:'Times New Roman';
+}
+#forgot{
+    font-size: small;
+    font-family:'Times New Roman';
+}
+#noaccount{
+    position: absolute;
+    top: 30.7rem;
+    margin-left: 4rem;
+    font-size: small;
+    font-family:'Times New Roman';
+}
+#sign{
+    position: absolute;
+    top: 30.5rem;
+    margin-left: 13rem;
+    font-family:'Times New Roman';
+    color: blue;
+}
+#sign:hover,#sign:focus{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:1100px) {
+    .headermenu,.noti {
+        margin-left: 3.4rem;
+
+    }
+    body{
+        background-repeat: no-repeat;
+        
+    }
+    #mainrow2{
+        margin-top: 3.5rem;
+        /* border-top: 2px solid black; */
+    }
+   
+}
+@media screen and (max-width:800px){
+    .login{
+        margin-top: 3rem;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:290px){
+    .rectangle{
+        width: 5rem;
+        height: 4rem;
+    }
+    .login{
+        width: 100%;
+    }
+    
+}
 

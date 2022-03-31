@@ -53,9 +53,10 @@ font-size: medium;
 font-family: Georgia, 'Times New Roman', Times, serif;
 margin-top: -2rem;
 margin-left: 1rem;
+text-decoration: none;
 }
 #create:hover,#create:focus{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     cursor: pointer;
 
@@ -186,6 +187,7 @@ button:hover,.button:focus{
 #forgot{
     font-size: small;
     font-family:'Times New Roman';
+    text-decoration: none;
 }
 #noaccount{
     position: absolute;
@@ -200,6 +202,7 @@ button:hover,.button:focus{
     margin-left: 13rem;
     font-family:'Times New Roman';
     color: blue;
+    text-decoration: none;
 }
 #sign:hover,#sign:focus{
     color: black;

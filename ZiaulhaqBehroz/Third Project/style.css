@@ -10,24 +10,42 @@ html,body{
     display: grid;
     height: 100%;
     width: 100%;
-    place-items: center;
     margin-top: 0;
     background: -webkit-linear-gradient(left, #054b66, #054b74);
 
 }
 
+.LN{
+    display:grid;
+}
 .logo {
-    position: absolute;
+    position:fixed;
     width: 4rem;
     height: 4rem;
-    margin-left: -25rem;
-    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
     background: white;
     border-radius: 10px;
 }
+
+.title0{
+    position:fixed;
+    margin-left: 9.5rem;
+    color: white;
+    margin-top: 1rem;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.title1{
+    margin-left: 10rem;
+    color: white;
+    margin-top: 3.5rem;
+    font-family:'Poppins',sans-serif;
+}
 .pic{
     position:absolute;
-    margin-left: -25rem;
+    margin-left: 6rem;
     margin-top: 20rem;
     color: white;
     font-size: 27px;
@@ -35,33 +53,16 @@ html,body{
 
 }
 
-
-.title0{
-    position: absolute;
-    margin-left: -20.5rem;
-    color: white;
-    margin-top: 4.7rem;
-    font-size: 40px;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-
-.title1{
-    position: absolute;
-    margin-left: -20rem;
-    color: white;
-    margin-top: 7.5rem;
-    font-family:'Poppins',sans-serif;
-}
-
 .wrapper{
+    position:absolute;
     overflow: hidden;
-    max-width: 400px;
+    max-width: 500px;
     background: #fff;
     padding: 30px;
     border-radius: 7px;
     box-shadow: 0px 15px 20px #000;
     margin-top: 1rem;
+    margin-left: 35rem;
 }
 
 .wrapper .title-text{
@@ -248,8 +249,56 @@ form .field input[type="submit"]{
 .term0{
     font-size: small;
 }
-
 .term{
     font-size: smaller;
     color: red;
+}
+
+@media screen and (max-width: 750px) {
+    .contariner{
+        grid-template-columns: 1fr;
+    }
+    .logo{
+        position: fixed;
+        width: 2.5rem;
+        height: 2.5rem;
+        top: 20px;
+        left: 4rem;
+    }
+    .title0{
+        position:fixed;
+        font-size:x-large;
+        font-weight: bold;
+        margin-left: 12.5rem;
+        margin-top: 41px;
+    }
+    .title1{
+        display: none;
+    }
+    .pic{
+        position:fixed;
+        top: -8rem;
+        left: 5rem;
+        font-size: medium;
+    }
+    .pic img{
+        position:fixed;
+        width: 10rem;
+        height: 7.5rem;
+        top: 6rem;
+        z-index: -1;
+    }
+    .wrapper{
+        position:relative;
+        width: 60%;
+        left: -30rem;
+        top: 15.5rem;
+        
+    }
+    .CP{
+        display: grid;
+        grid-template-columns: 190px 160px;
+        
+    }
+
 }

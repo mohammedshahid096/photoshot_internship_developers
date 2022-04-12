@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & SignUp Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contariner">
+        <div class="LN"></div>
+            <img class="logo" src="logo1.png">
+            <h1 class="title0">Photoshooto</h1>
+            <p class="title1">"Your Memories, Our Promiso"</p>
+        </div>
+        <p class="pic">
+            <img src="pic.PNG"><br>&nbsp; Enter your personal details <br> &nbsp; &nbsp; and start journey with us
+        </p>
+        
+        <div class="wrapper">
+            <div class="title-text">
+                <div class="title login">Log In Form</div>
+                <div class="title signup"><ion-icon name="arrow-back-outline"></ion-icon>&nbsp; SignUp Form</div>
+            </div>
+            <div class="form-container">
+                <div class="slide-controls">
+                    <input type="radio" name="slider" id="login" checked>
+                    <input type="radio" name="slider" id="signup">
+                    <label for="login" class="slide login"><ion-icon name="log-in-outline"></ion-icon>&nbsp; Log IN</label>
+                    <label for="signup" class="slide signup"><ion-icon name="person-circle-outline"></ion-icon>&nbsp; SignUp</label>
+                    <div class="slide-tab"></div>
+                </div>
+                <div class="form-inner">
+                    <form action="#" class="login" >
+                        <div class="field"><br><br> E-mail
+                            <input type="text" placeholder="nimishatripathi37@gmail.com" required>
+                        </div><br><br><br>
+                        <div class="field"> Password
+                            <input type="password" placeholder="-----" id="id_password" required> 
+                            <i class="far fa-eye" id="togglePassword" ></i>
+                        </div><br><br>
+                        <div>
+                            <input type="checkbox" id="checkbox">
+                                <span class="#" id="remember">Remember me
+                        </div>
+                        
+                        <div class="pass-link"><br>
+                            <a href="#">Forgot password?</a>
+                        </div>
+                        <div class="field"><br><br>
+                            <input type="submit" value="Login">
+                        </div><br>
+                        <div class="signup-link">Not a member?
+                            <a href="#">SignUp Now</a>
+                        </div>
+                    </form>
+                    <form action="#" class="signup">
+                        <div class="field">Ofice No / House NO / Flat NO
+                            <input type="text" placeholder="74 D Crystal palm" required>
+                        </div>
+                        <div class="field">Society / Street name
+                            <input type="text" placeholder="Runwal Garden City" required>
+                        </div>
+                        <div class="field">Add landmark
+                            <input type="text" placeholder="Near Ram temple" required>
+                        </div><br>
+                        <div class="CP">
+                            <p>City <br>
+                                <input type="text" placeholder="Mumbai" required>
+                            </p>
+                            <p>Pincode <br>
+                                <input type="text" placeholder="565565" required>
+                            </p>
+                            <p>Country <br>
+                                <select type="text" class="country" required>
+                                    <option value="#"></option>
+                                    <option value="#">America</option>
+                                    <option value="#">UK</option>
+                                    <option value="#">India</option>
+                                    <option value="#">Pakistan</option>
+                                </select>
+                            </p>
+                        </div>
+                        <div>
+                            <input type="checkbox">&nbsp;<span class="term0">Create an account means you're okey with our Terms of Service, Pricacy Policy, and our default Notification Settings.</p> <span class="term">* You must agree to the Terms of Service</span></span>
+                        </div>
+                        <div class="field">
+                            <input type="submit" value="Create Account">
+                        </div>
+                    </form>
+                </div>
+            </di>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="LS.js"></script>
+</body>
+</html>

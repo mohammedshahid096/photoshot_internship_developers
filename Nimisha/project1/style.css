@@ -1,0 +1,304 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+html,body{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+    background: -webkit-linear-gradient(left, #054b66, #054b74);
+
+}
+
+.LN{
+    display:grid;
+}
+.logo {
+    position:fixed;
+    width: 4rem;
+    height: 4rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    background: white;
+    border-radius: 10px;
+}
+
+.title0{
+    position:fixed;
+    margin-left: 9.5rem;
+    color: white;
+    margin-top: 1rem;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.title1{
+    margin-left: 10rem;
+    color: white;
+    margin-top: 3.5rem;
+    font-family:'Poppins',sans-serif;
+}
+.pic{
+    position:absolute;
+    margin-left: 6rem;
+    margin-top: 20rem;
+    color: white;
+    font-size: 27px;
+    font-family:'Poppins',sans-serif;
+
+}
+
+.wrapper{
+    position:absolute;
+    overflow: hidden;
+    max-width: 500px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 7px;
+    box-shadow: 0px 15px 20px #000;
+    margin-top: 1rem;
+    margin-left: 35rem;
+}
+
+.wrapper .title-text{
+    display: flex;
+    width: 200%;
+}
+
+.wrapper .title-text .title{
+    width: 50%;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+
+.wrapper .form-container{
+    width: 100%;
+    overflow: hidden;
+}
+
+.slide-controls{
+    position: relative;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 7px;
+    margin: 10px 0 10px 0;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+}
+
+.slide{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 48px;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+
+.signup{
+    color: black;
+}
+
+.slide-tab{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    left: 0;
+    z-index: 0;
+    border-radius: 7px;
+    transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+    background: -webkit-linear-gradient(left, #054b66, #054b74);
+}
+
+input[type="radio"]{
+    display: none;
+}
+#signup:checked ~ .slide-tab{
+    left: 50%;
+}
+
+#signup:checked ~ .singup{
+    color: #ffffff;
+}
+
+#signup:checked ~ .login{
+    color: #000000;
+}
+
+.form-inner form .field{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form-container .form-inner{
+    display: flex;
+    width: 200%;
+}
+
+.form-container .form-inner form{
+    width: 50%;
+    transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+
+}
+
+.form-inner form .field input{
+    height: 65%;
+    width: 100%;
+    outline: none;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 7px;
+    border: 1px solid lightgray;
+    border-bottom-width: 2px;
+    transition: all 0.4s ease;
+}
+
+.form-inner form .field input:focus{
+    border-color: #054863;
+}
+.form-inner form .pass-link{
+    margin-top: 20px;
+}
+.form-inner form .pass-link a,
+.form-inner form .signup-link a{
+    color:#3700ff;
+    text-decoration: none;
+}
+
+.form-inner form .signup-link{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.form-inner form .pass-link a:hover,
+.form-inner form .signup-link a:hover{
+    text-decoration: underline;
+}
+form .field input[type="submit"]{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    height: 80%;
+    border: none;
+    cursor: pointer;
+    background: -webkit-linear-gradient(left, #054b66, #054b74);
+    
+}
+
+.form-inner input #togglePassword{
+    overflow: hidden;
+}
+#togglePassword{
+    position: absolute;
+    margin-left: -3.5rem;
+    margin-top: 9px;
+    color: #054863;
+}
+
+#togglePassword:hover,#togglePassword:focus{
+    color: #054b74;
+    cursor: pointer;
+}
+
+.CP{
+    display: grid;
+    grid-template-columns: 210px 170px;
+    
+}
+.CP input,select{
+    height: 48%;
+    width: 75%;
+    outline: none;
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 7px;
+    border: 1px solid lightgray;
+    border-bottom-width: 2px;
+    transition: all 0.4s ease;
+}
+
+.CP .country{
+    padding: auto;
+    height: 65%;
+}
+.CP option{
+    border-color: #054863;
+}
+.CP input:focus{
+    border-color: #054863;
+}
+.CP select:focus{
+    border-color: #054863;
+
+}
+
+.term0{
+    font-size: small;
+}
+.term{
+    font-size: smaller;
+    color: red;
+}
+
+@media screen and (max-width: 750px) {
+    .contariner{
+        grid-template-columns: 1fr;
+    }
+    .logo{
+        position: fixed;
+        width: 2.5rem;
+        height: 2.5rem;
+        top: 20px;
+        left: 4rem;
+    }
+    .title0{
+        position:fixed;
+        font-size:x-large;
+        font-weight: bold;
+        margin-left: 12.5rem;
+        margin-top: 41px;
+    }
+    .title1{
+        display: none;
+    }
+    .pic{
+        position:fixed;
+        top: -8rem;
+        left: 5rem;
+        font-size: medium;
+    }
+    .pic img{
+        position:fixed;
+        width: 10rem;
+        height: 7.5rem;
+        top: 6rem;
+        z-index: -1;
+    }
+    .wrapper{
+        position:relative;
+        width: 60%;
+        left: -30rem;
+        top: 15.5rem;
+        
+    }
+    .CP{
+        display: grid;
+        grid-template-columns: 190px 160px;
+        
+    }
+
+}

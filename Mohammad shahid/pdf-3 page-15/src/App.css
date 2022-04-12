@@ -1,0 +1,125 @@
+body {
+  background-color: whitesmoke;
+}
+
+#mainphotoshootologo {
+  width: 150px;
+  display: block;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.container {
+  border: 1.5px solid gray;
+  /* width: 70rem;
+  height: 40rem; */
+  border-radius: 8px;
+  box-shadow: 0px 2.5px 4px rgba(48, 48, 47, 0.712);
+}
+
+/* ----------------row -1 ---------------------------------------- */
+#cancel_icon {
+  margin-top: 5px;
+  width: 1.8rem;
+  height: 1.8rem;
+  border: 2px solid red;
+  border-radius: 50%;
+  float: right;
+}
+
+#cancel_icon img {
+  width: 95%;
+  margin-top: -2px;
+}
+
+#image_circle {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  background-image: url('../src/photos/profile.jpg');
+  background-size: 7rem;
+  margin: 0 auto;
+  margin-top: 15px;
+
+}
+
+.required {
+  color: red;
+}
+
+#profile_row label {
+  font-size: large;
+  color: gray;
+}
+
+#firstName,
+#secondName {
+  width: 12rem;
+  height: 35px;
+  border-radius: 7px;
+  border: 1.5px solid gray;
+  color: rgba(41, 85, 104, 0.84);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.correctLogo {
+  background-image: url("https://img.icons8.com/color/48/000000/checked--v1.png");
+  background-repeat: no-repeat;
+  background-position: 99%;
+  background-size: 25px;
+  padding-right: -15px;
+
+}
+
+/* ----------------personal profile div ---------------------------------------- */
+#personalProfileDiv {
+  border: 1.5px solid gray;
+  border-radius: 10px;
+
+}
+#personalProfileDiv label{
+  font-size: large;
+  margin-left: 5px;
+  color: gray;
+}
+.profileInput, #genderSelect{
+  width: 85%;
+  height: 35px;
+  border-radius: 7px;
+  border: 1.5px solid gray;
+  color: rgba(41, 85, 104, 0.84);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5px;
+
+}
+#genderSelect{
+width: 40%;
+padding-left: 10px;
+}
+
+
+
+
+/* ----------------Professional profile div ---------------------------------------- */
+
+#submitbutton{
+width: 150px;
+height: 35px;
+margin-top: 22px;
+margin-bottom: 22px;
+text-transform: capitalize;
+background-color:rgb(30, 45, 84);
+color: whitesmoke;
+font-family: Arial, Helvetica, sans-serif;
+font-size: large;
+border-radius: 5px;
+/* border: none; */
+
+}
